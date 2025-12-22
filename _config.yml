@@ -1,8 +1,12 @@
 title: Interdisciplinary Livestock Microbiome Research Lab
 email: a.rahman@umanitoba.ca
-description: >-
+description: >
   A research group focused on livestock microbiomes and host-microbe interactions.
-baseurl: ""
-url: "https://ilmrl.github.io"
-markdown: kramdown
+baseurl: "" 
+url: "https://zisanurrahman.github.io"
+
 theme: minima
+
+markdown: kramdown
+permalink: pretty
+
