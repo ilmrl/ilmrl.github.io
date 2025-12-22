@@ -8,11 +8,21 @@ permalink: /people.html
 
 ## Principal Investigator
 
-**Dr. [Your Name]**  
-Associate Professor of Microbiome Science  
-Email: your.email@university.edu
+**Dr. Hooman Derakhshani**  
+Assistant Professor, Department of Animal Science
+University of Manitoba (Fort Garry Campus)
+Faculty of Agricultural and Food Sciences
+Room 230 Animal Science Building
+12 Dafoe Road
+Winnipeg, Manitoba R3T 2N2 Canada
+
+Email: hooman.derakhshani@umanitoba.ca
 
 ## Lab Members
 
-- Jane Doe – PhD Student
-- John Smith – Research Technician
+- A S M Zisanur Rahman – Postdoctoral Fellow
+- Nahidur Rahman – PhD Student
+- Larissa Scott – MSc Student
+- Fatemeh Mohammadian - MSc Student
+- Arezoo Alizadeh - Research Technician
+- Tasneem Hassan Muna – Research Technician
