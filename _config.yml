@@ -1,0 +1,8 @@
+title: Interdisciplinary Livestock Microbiome Research Lab
+email: your.email@university.edu
+description: >-
+  A research group focused on livestock microbiomes and host-microbe interactions.
+baseurl: ""
+url: "https://ilmrl.github.io"
+markdown: kramdown
+theme: minima
