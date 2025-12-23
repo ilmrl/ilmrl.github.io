@@ -11,28 +11,27 @@ title: Our Team
 <hr style="border: 0; border-top: 1px solid #ddd; margin-bottom: 2rem;">
 
 <div style="margin-bottom: 3rem;">
-    <h2 style="margin-top: 0;">Principal Investigator</h2>
-    
-    <div style="display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap;">
-        <div style="flex: 0 0 200px;">
-            <img src="images/hooman.jpg" alt="Dr. Hooman Derakhshani" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" onerror="this.src='https://via.placeholder.com/200x200?text=HD'">
-        </div>
-        
-        <div style="flex: 1; min-width: 300px;">
-            <h3 style="margin-top: 0; color: #366372;">Dr. Hooman Derakhshani</h3>
-            <p><em>Principal Investigator & Lab Director</em></p>
-            
-            <p><strong>Bio:</strong> Dr. Derakhshani leads the ILMRL with a focus on decoding the complex interactions between livestock hosts and their resident microbiota. With a background in veterinary medicine and microbial ecology, he drives the lab's strategic direction.</p>
-            
-            <p><strong>Research Focus:</strong> 
-            <ul>
-                <li>Host-microbe interactions in ruminants and swine.</li>
-                <li>Development of microbiome-based therapeutics.</li>
-                <li>Integration of multi-omics data (metagenomics, metabolomics).</li>
-            </ul>
-            </p>
-        </div>
-    </div>
+<h2 style="margin-top: 0;">Principal Investigator</h2>
+
+<div style="display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap;">
+<div style="flex: 0 0 200px;">
+<img src="images/hooman.jpg" alt="Dr. Hooman Derakhshani" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" onerror="this.src='https://via.placeholder.com/200x200?text=HD'">
+</div>
+
+<div style="flex: 1; min-width: 300px;">
+<h3 style="margin-top: 0; color: #366372;">Dr. Hooman Derakhshani</h3>
+<p><em>Principal Investigator & Lab Director</em></p>
+
+<p><strong>Bio:</strong> Dr. Derakhshani leads the ILMRL with a focus on decoding the complex interactions between livestock hosts and their resident microbiota. With a background in veterinary medicine and microbial ecology, he drives the lab's strategic direction.</p>
+
+<p><strong>Research Focus:</strong></p>
+<ul>
+<li>Host-microbe interactions in ruminants and swine.</li>
+<li>Development of microbiome-based therapeutics.</li>
+<li>Integration of multi-omics data (metagenomics, metabolomics).</li>
+</ul>
+</div>
+</div>
 </div>
 
 <hr style="border: 0; border-top: 1px solid #ddd; margin: 3rem 0;">
