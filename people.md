@@ -45,7 +45,7 @@ title: Our Team
     </div>
     <div>
         <h3 style="margin-top: 0;">Dr. A S M Zisanur Rahman</h3>
-        <p><strong>Bio:</strong> Dr. Rahman is a Postdoctoral Fellow specializing in advanced bioinformatics and microbial genomics. He completed his PhD in [Field/University] and joined the lab to lead our computational pipelines.</p>
+        <p><strong>Bio:</strong> Dr. Rahman is a Postdoctoral Fellow specializing in advanced bioinformatics and microbial genomics. He leads the lab's computational pipelines for analyzing complex metagenomic datasets.</p>
         <p><strong>Research Focus:</strong> Application of machine learning in microbiome data analysis, rumen methanogen profiling, and resistome analysis in livestock environments.</p>
     </div>
 </div>
@@ -90,12 +90,14 @@ title: Our Team
         <h4>Arezoo Alizadeh</h4>
         <p><em>Research Technician</em></p>
         <p><strong>Bio:</strong> Arezoo manages daily lab operations, ensuring safety compliance and overseeing sample processing workflows for DNA/RNA extraction.</p>
+        <p><strong>Expertise:</strong> Sample processing, molecular biology workflows.</p>
     </div>
     
     <div>
         <h4>Tasneem Hassan Muna</h4>
         <p><em>Research Technician</em></p>
-        <p><strong>Bio:</strong> Tanseem specializes in next-generation sequencing library preparation and maintains the lab's culture collection.</p>
+        <p><strong>Bio:</strong> Tasneem specializes in next-generation sequencing library preparation and maintains the lab's microbial culture collection.</p>
+        <p><strong>Expertise:</strong> NGS library prep, anaerobic culturing.</p>
     </div>
 </div>
 
