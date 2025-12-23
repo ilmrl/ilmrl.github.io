@@ -1,28 +1,22 @@
 ---
 layout: default
-title: People
-permalink: /people.html
+title: Team
 ---
 
-# Our Team
+<div class="content-wrapper">
+
+# Meet the Team
 
 ## Principal Investigator
 
-**Dr. Hooman Derakhshani**  
-Assistant Professor, Department of Animal Science
-University of Manitoba (Fort Garry Campus)
-Faculty of Agricultural and Food Sciences
-Room 230 Animal Science Building
-12 Dafoe Road
-Winnipeg, Manitoba R3T 2N2 Canada
+**Dr. [Your Name]** *PhD, Microbiology* Dr. [Your Name] leads the ILMRL...
 
-Email: hooman.derakhshani@umanitoba.ca
+## Postdocs
 
-## Lab Members
+* **Dr. Researcher Name**: Focuses on viral metagenomics.
 
-- A S M Zisanur Rahman – Postdoctoral Fellow
-- Nahidur Rahman – PhD Student
-- Larissa Scott – MSc Student
-- Fatemeh Mohammadian - MSc Student
-- Arezoo Alizadeh - Research Technician
-- Tasneem Hassan Muna – Research Technician
+## Graduate Students
+
+* **Student Name**: Working on rumen methane inhibitors.
+
+</div>
