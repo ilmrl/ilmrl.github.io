@@ -1,39 +1,150 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | ILMRL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        /* --- EMBEDDED CSS --- */
+        :root {
+            --primary-color: #366372; /* Deep Teal */
+            --accent-color: #89A46B;  /* Muted Green */
+            --text-color: #333333;
+            --bg-light: #f4f7f6;
+            --white: #ffffff;
+            --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
-<div class="hero">
-    <div class="hero-overlay">
-        <h1>Advancing Livestock Health Through Microbiome Science</h1>
-        <p>Decoding the host-microbe dialogue in cattle and swine.</p>
-        <div class="hero-buttons">
-            <a href="projects" class="btn btn-primary">Our Research</a>
-            <a href="publications" class="btn btn-secondary">Publications</a>
-        </div>
-    </div>
-</div>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
-<section id="about">
-    <div class="section-header">
-        <h2>Our Mission</h2>
+        body {
+            font-family: var(--font-main);
+            color: var(--text-color);
+            line-height: 1.6;
+            background-color: var(--white);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        a { text-decoration: none; color: inherit; }
+        ul { list-style: none; }
+
+        /* --- HEADER --- */
+        header {
+            background-color: var(--white);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0.8rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-area { display: flex; align-items: center; gap: 15px; }
+        /* Logo sizing */
+        .logo-area img { height: 50px; width: auto; }
+        .lab-name { font-size: 1.1rem; font-weight: 700; color: var(--primary-color); line-height: 1.2; }
+
+        nav ul { display: flex; gap: 2rem; align-items: center; }
+        nav a { font-weight: 600; font-size: 0.95rem; color: #555; transition: color 0.3s; }
+        nav a:hover { color: var(--primary-color); }
+
+        /* --- HERO (Homepage Only) --- */
+        .hero {
+            /* Fallback color if image fails */
+            background-color: var(--primary-color); 
+            /* You can re-add the URL here if you want an image */
+            background-image: linear-gradient(rgba(54, 99, 114, 0.9), rgba(54, 99, 114, 0.8));
+            padding: 5rem 2rem;
+            text-align: center;
+            color: white;
+        }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+        .hero p { font-size: 1.2rem; max-width: 800px; margin: 0 auto 2rem auto; }
+        
+        .btn { padding: 0.8rem 1.5rem; border-radius: 4px; font-weight: bold; display: inline-block; margin: 5px;}
+        .btn-primary { background-color: var(--accent-color); color: white; }
+        .btn-secondary { border: 2px solid white; color: white; }
+
+        /* --- CONTENT WRAPPER (For Markdown Files) --- */
+        .main-content {
+            flex: 1; /* Pushes footer down */
+            max-width: 1000px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .content-wrapper {
+            padding: 3rem 2rem;
+        }
+        
+        /* Markdown Styling fixes */
+        .content-wrapper h1 { color: var(--primary-color); font-size: 2.5rem; margin-bottom: 1.5rem; border-bottom: 2px solid var(--accent-color); padding-bottom: 10px; }
+        .content-wrapper h2 { color: var(--primary-color); font-size: 1.8rem; margin-top: 2rem; margin-bottom: 1rem; }
+        .content-wrapper p { margin-bottom: 1rem; }
+        .content-wrapper ul { list-style: disc; margin-left: 2rem; margin-bottom: 1.5rem; }
+        .content-wrapper li { margin-bottom: 0.5rem; }
+
+        /* --- GRID SYSTEM (For Homepage) --- */
+        .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; padding: 2rem; }
+        .card { background: #f9f9f9; padding: 2rem; border-radius: 8px; border-top: 4px solid var(--accent-color); }
+        .card h3 { color: var(--primary-color); margin-bottom: 1rem; }
+        .highlight-card { background: var(--primary-color); color: white; border: none; }
+        .highlight-card h3 { color: white; }
+        .card-icon { font-size: 2rem; color: var(--accent-color); margin-bottom: 1rem; display: block; }
+        .highlight-card .card-icon { color: white; }
+
+        /* --- FOOTER --- */
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo-area">
+                <img src="{{ '/images/logo.png' | relative_url }}" alt="Lab Logo" onerror="this.style.display='none'">
+                <div class="lab-name">
+                    Interdisciplinary Livestock<br>Microbiome Research Lab
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                    <li><a href="{{ '/about' | relative_url }}">About</a></li>
+                    <li><a href="{{ '/people' | relative_url }}">People</a></li>
+                    <li><a href="{{ '/publications' | relative_url }}">Publications</a></li>
+                    <li><a href="{{ '/projects' | relative_url }}">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-content">
+        {{ content }}
     </div>
-    <div class="grid-3">
-        <div class="card">
-            <i class="fas fa-dna card-icon"></i>
-            <h3>The Mission</h3>
-            <p>The ILMRL investigates the complex interactions within the microbiomes of production animals.</p>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 ILMRL. Powered by Jekyll.</p>
         </div>
-        <div class="card">
-            <i class="fas fa-newspaper card-icon"></i>
-            <h3>Latest News</h3>
-            <p><strong>Dec 2025:</strong> New Grant Awarded for rumen methanogen reduction.</p>
-            <p><strong>Nov 2025:</strong> Paper published in <em>Nature Microbiology</em>.</p>
-        </div>
-        <div class="card highlight-card">
-            <i class="fas fa-user-graduate card-icon"></i>
-            <h3>Join the Lab</h3>
-            <p>Recruiting graduate students with bioinformatics experience.</p>
-        </div>
-    </div>
-</section>
+    </footer>
+
+</body>
+</html>
