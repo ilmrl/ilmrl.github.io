@@ -15,7 +15,7 @@ title: Our Team
 
 <div style="display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap;">
 <div style="flex: 0 0 200px;">
-<img src="images/hooman.png" alt="Dr. Hooman Derakhshani" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" onerror="this.src='https://via.placeholder.com/200x200?text=HD'">
+<img src="images/hooman.png" alt="Dr. Hooman Derakhshani" loading="lazy" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" onerror="this.src='https://via.placeholder.com/200x200?text=HD'">
 </div>
 
 <div style="flex: 1; min-width: 300px;">
@@ -40,7 +40,7 @@ title: Our Team
 
 <div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
 <div style="flex: 0 0 150px;">
-<img src="images/zisanur.png" alt="Dr. Rahman" style="width: 100%; border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;" onerror="this.src='https://via.placeholder.com/150?text=ZR'">
+<img src="images/zisanur.png" alt="Dr. Rahman" loading="lazy" style="width: 100%; border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;" onerror="this.src='https://via.placeholder.com/150?text=ZR'">
 </div>
 <div>
 <h3 style="margin-top: 0;">Dr. A S M Zisanur Rahman</h3>
@@ -56,7 +56,7 @@ title: Our Team
 <h3 style="color: #89A46B;">PhD Candidate</h3>
 <div style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: flex-start;">
 <div style="flex: 0 0 150px;">
-<img src="images/nahidur.png" alt="Nahidur Rahman" style="width: 100%; border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;" onerror="this.src='https://via.placeholder.com/150?text=NR'">
+<img src="images/nahidur.png" alt="Nahidur Rahman" loading="lazy" style="width: 100%; border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;" onerror="this.src='https://via.placeholder.com/150?text=NR'">
 </div>
 <div>
 <h4 style="margin-top: 0;">Nahidur Rahman</h4>
@@ -69,7 +69,7 @@ title: Our Team
 
 <div style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: flex-start;">
 <div style="flex: 0 0 150px;">
-<img src="images/larissa.png" alt="Larissa Scott" style="width: 100%; border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;" onerror="this.src='https://via.placeholder.com/150?text=LS'">
+<img src="images/larissa.png" alt="Larissa Scott" loading="lazy" style="width: 100%; border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;" onerror="this.src='https://via.placeholder.com/150?text=LS'">
 </div>
 <div>
 <h4 style="margin-top: 0;">Larissa Scott</h4>
@@ -80,7 +80,7 @@ title: Our Team
 
 <div style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: flex-start;">
 <div style="flex: 0 0 150px;">
-<img src="images/fatemeh.png" alt="Fatemeh Mohammadian" style="width: 100%; border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;" onerror="this.src='https://via.placeholder.com/150?text=FM'">
+<img src="images/fatemeh.png" alt="Fatemeh Mohammadian" loading="lazy" style="width: 100%; border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;" onerror="this.src='https://via.placeholder.com/150?text=FM'">
 </div>
 <div>
 <h4 style="margin-top: 0;">Fatemeh Mohammadian</h4>
@@ -91,7 +91,7 @@ title: Our Team
 
 <div style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: flex-start;">
 <div style="flex: 0 0 150px;">
-<img src="images/anindita.png" alt="Anindita Roy" style="width: 100%; border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;" onerror="this.src='https://via.placeholder.com/150?text=AR'">
+<img src="images/anindita.png" alt="Anindita Roy" loading="lazy" style="width: 100%; border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;" onerror="this.src='https://via.placeholder.com/150?text=AR'">
 </div>
 <div>
 <h4 style="margin-top: 0;">Anindita Roy</h4>
@@ -107,7 +107,7 @@ title: Our Team
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
 <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
 <div style="width: 150px; margin-bottom: 1rem;">
-<img src="images/arezoo.png" alt="Arezoo Alizadeh" style="width: 100%; border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;" onerror="this.src='https://via.placeholder.com/150?text=AA'">
+<img src="images/arezoo.png" alt="Arezoo Alizadeh" loading="lazy" style="width: 100%; border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;" onerror="this.src='https://via.placeholder.com/150?text=AA'">
 </div>
 <div>
 <h4 style="margin-top:0;">Arezoo Alizadeh</h4>
@@ -119,7 +119,7 @@ title: Our Team
 
 <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
 <div style="width: 150px; margin-bottom: 1rem;">
-<img src="images/tasneem.png" alt="Tasneem Hassan Muna" style="width: 100%; border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;" onerror="this.src='https://via.placeholder.com/150?text=TM'">
+<img src="images/tasneem.png" alt="Tasneem Hassan Muna" loading="lazy" style="width: 100%; border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;" onerror="this.src='https://via.placeholder.com/150?text=TM'">
 </div>
 <div>
 <h4 style="margin-top:0;">Tasneem Hassan Muna</h4>
