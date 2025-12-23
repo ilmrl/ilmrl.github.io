@@ -1,22 +1,102 @@
 ---
 layout: default
-title: Team
+title: Our Team
 ---
 
 <div class="content-wrapper">
 
-# Meet the Team
+<h1>Meet the Team</h1>
+<p style="font-size: 1.1rem; margin-bottom: 2rem;">The ILMRL is a diverse group of researchers dedicated to solving complex agricultural challenges through microbiome science.</p>
 
-## Principal Investigator
+<hr style="border: 0; border-top: 1px solid #ddd; margin-bottom: 2rem;">
 
-**Dr. [Your Name]** *PhD, Microbiology* Dr. [Your Name] leads the ILMRL...
+<div style="margin-bottom: 3rem;">
+    <h2 style="margin-top: 0;">Principal Investigator</h2>
+    
+    <div style="display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap;">
+        <div style="flex: 0 0 200px;">
+            <img src="images/hooman.jpg" alt="Dr. Hooman Derakhshani" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" onerror="this.src='https://via.placeholder.com/200x200?text=HD'">
+        </div>
+        
+        <div style="flex: 1; min-width: 300px;">
+            <h3 style="margin-top: 0; color: #366372;">Dr. Hooman Derakhshani</h3>
+            <p><em>Principal Investigator & Lab Director</em></p>
+            
+            <p><strong>Bio:</strong> Dr. Derakhshani leads the ILMRL with a focus on decoding the complex interactions between livestock hosts and their resident microbiota. With a background in veterinary medicine and microbial ecology, he drives the lab's strategic direction.</p>
+            
+            <p><strong>Research Focus:</strong> 
+            <ul>
+                <li>Host-microbe interactions in ruminants and swine.</li>
+                <li>Development of microbiome-based therapeutics.</li>
+                <li>Integration of multi-omics data (metagenomics, metabolomics).</li>
+            </ul>
+            </p>
+        </div>
+    </div>
+</div>
 
-## Postdocs
+<hr style="border: 0; border-top: 1px solid #ddd; margin: 3rem 0;">
 
-* **Dr. Researcher Name**: Focuses on viral metagenomics.
+<h2>Postdoctoral Fellows</h2>
 
-## Graduate Students
+<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
+    <div style="flex: 0 0 150px;">
+        <img src="images/zisanur.jpg" alt="Dr. Rahman" style="width: 100%; border-radius: 50%;" onerror="this.src='https://via.placeholder.com/150?text=ZR'">
+    </div>
+    <div>
+        <h3 style="margin-top: 0;">Dr. A S M Zisanur Rahman</h3>
+        <p><strong>Bio:</strong> Dr. Rahman is a Postdoctoral Fellow specializing in advanced bioinformatics and microbial genomics. He completed his PhD in [Field/University] and joined the lab to lead our computational pipelines.</p>
+        <p><strong>Research Focus:</strong> Application of machine learning in microbiome data analysis, rumen methanogen profiling, and resistome analysis in livestock environments.</p>
+    </div>
+</div>
 
-* **Student Name**: Working on rumen methane inhibitors.
+<hr style="border: 0; border-top: 1px solid #ddd; margin: 3rem 0;">
+
+<h2>Graduate Students</h2>
+
+<h3 style="color: #89A46B;">PhD Candidate</h3>
+<div style="margin-bottom: 2rem;">
+    <h4>Nahidur Rahman</h4>
+    <p><strong>Bio:</strong> Nahidur is a PhD student investigating the functional dynamics of the bovine microbiome. His work aims to link specific microbial taxa to feed efficiency traits.</p>
+    <p><strong>Research Focus:</strong> Rumen fermentation pathways, mitigation of enteric methane emissions, and long-read sequencing technologies.</p>
+</div>
+
+<h3 style="color: #89A46B; margin-top: 2rem;">MSc Students</h3>
+
+<div style="margin-bottom: 2rem;">
+    <h4>Larissa Scott</h4>
+    <p><strong>Bio:</strong> Larissa is an MSc student focused on early-life interventions in swine. She is interested in how maternal diet influences piglet gut colonization.</p>
+    <p><strong>Research Focus:</strong> Swine gut health, prebiotics, and immune system development.</p>
+</div>
+
+<div style="margin-bottom: 2rem;">
+    <h4>Fatemeh Mohammadian</h4>
+    <p><strong>Bio:</strong> Fatemeh joined the lab to study the impact of antimicrobials on the livestock microbiome. She brings a strong background in molecular biology.</p>
+    <p><strong>Research Focus:</strong> Antimicrobial resistance (AMR) genes, plasmid transfer in gut communities.</p>
+</div>
+
+<div style="margin-bottom: 2rem;">
+    <h4>Anindita Roy</h4>
+    <p><strong>Bio:</strong> Anindita is researching the respiratory microbiome of cattle. Her work seeks to identify biomarkers for Bovine Respiratory Disease (BRD).</p>
+    <p><strong>Research Focus:</strong> Nasopharyngeal microbiota, respiratory health, and pathogen exclusion.</p>
+</div>
+
+<hr style="border: 0; border-top: 1px solid #ddd; margin: 3rem 0;">
+
+<h2>Research Support</h2>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+    <div>
+        <h4>Arezoo Alizadeh</h4>
+        <p><em>Research Technician</em></p>
+        <p><strong>Bio:</strong> Arezoo manages daily lab operations, ensuring safety compliance and overseeing sample processing workflows for DNA/RNA extraction.</p>
+    </div>
+    
+    <div>
+        <h4>Tasneem Hassan Muna</h4>
+        <p><em>Research Technician</em></p>
+        <p><strong>Bio:</strong> Tanseem specializes in next-generation sequencing library preparation and maintains the lab's culture collection.</p>
+    </div>
+</div>
 
 </div>
