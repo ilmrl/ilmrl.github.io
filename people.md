@@ -86,19 +86,17 @@ title: Our Team
 <h2>Research Support</h2>
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
-    <div>
-        <h4>Arezoo Alizadeh</h4>
-        <p><em>Research Technician</em></p>
-        <p><strong>Bio:</strong> Arezoo manages daily lab operations, ensuring safety compliance and overseeing sample processing workflows for DNA/RNA extraction.</p>
-        <p><strong>Expertise:</strong> Sample processing, molecular biology workflows.</p>
-    </div>
-    
-    <div>
-        <h4>Tasneem Hassan Muna</h4>
-        <p><em>Research Technician</em></p>
-        <p><strong>Bio:</strong> Tasneem specializes in next-generation sequencing library preparation and maintains the lab's microbial culture collection.</p>
-        <p><strong>Expertise:</strong> NGS library prep, anaerobic culturing.</p>
-    </div>
+<div>
+<h4 style="margin-top:0;">Arezoo Alizadeh</h4>
+<p><em>Research Technician</em></p>
+<p><strong>Bio:</strong> Arezoo manages daily lab operations, ensuring safety compliance and overseeing sample processing workflows for DNA/RNA extraction.</p>
+<p><strong>Expertise:</strong> Sample processing, molecular biology workflows.</p>
 </div>
 
+<div>
+<h4 style="margin-top:0;">Tasneem Hassan Muna</h4>
+<p><em>Research Technician</em></p>
+<p><strong>Bio:</strong> Tasneem specializes in next-generation sequencing library preparation and maintains the lab's microbial culture collection.</p>
+<p><strong>Expertise:</strong> NGS library prep, anaerobic culturing.</p>
+</div>
 </div>
