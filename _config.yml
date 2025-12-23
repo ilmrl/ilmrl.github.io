@@ -5,7 +5,7 @@ description: >
 baseurl: "" 
 url: "https://ilmrl.github.io"
 
-theme: minima
+#theme: minima
 
 markdown: kramdown
 permalink: pretty
